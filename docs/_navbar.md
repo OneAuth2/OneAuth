@@ -1,5 +1,3 @@
 <!-- docs/_navbar.md --> 
-* [En](/en/)
-* [中文](/cn/)
-* [试试文](/cn/)
 
+* [现代身份构建指南](/modernidentity/)
