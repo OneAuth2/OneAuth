@@ -34,7 +34,7 @@
 
 有了基本的定义，我们就可以继续讨论身份生命周期中的主要事件，如图 2-1所示. 本章我们将概述下在身份的生命周期当中会发生的事件，然后在后续章节中更深入地探讨每一个事件。事实上，基于事件去管理身份也是现代化的身份管理系统的主要思想。
 
-![2-1-IdentityLifecycle.jpg](https://i.loli.net/2021/06/21/bL6hMHgpolJ2uaU.jpg)
+![2-1-IdentityLifecycle.jpg](https://huawei.best/2021/06/23/fd1f33c7cd97a.jpg)
 
 ## 供给（Provision）
 
