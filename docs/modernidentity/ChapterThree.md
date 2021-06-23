@@ -18,7 +18,7 @@
 
 第四阶段，因为技术的演进，对于API的需求越来越多，2014年基于OpenID和Oauth2.0，OIDC于2014年发布，谷歌、微软、PingIDentity纷纷转向这一新的协议。微服务、云原生这几年概念火热，可以预见OIDC的应用将会越来越广泛。
 
-![3-1-ID Protocol History.jpg](https://i.loli.net/2021/06/23/CEhmYSrUXMjtFyd.jpg)
+![3-1-ID Protocol History.jpg](https://huawei.best/2021/06/23/4e50c173b07b4.jpg)
 
 ## 石器时代-独立存储身份 
 
