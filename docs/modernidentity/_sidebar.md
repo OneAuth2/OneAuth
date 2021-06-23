@@ -4,4 +4,4 @@
 	* [引言](modernidentity/Introduction.md "引言")
 	*  [第一章 现代身份管理的挑战](modernidentity/ChapterOne.md )
 	*  [第二章 身份的生命周期](modernidentity/ChapterTwo.md )
-
+	*  [第三章 身份演进的历史](modernidentity/ChapterThree.md )
