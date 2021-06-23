@@ -18,7 +18,7 @@
 
 第四阶段，因为技术的演进，对于API的需求越来越多，2014年基于OpenID和Oauth2.0，OIDC于2014年发布，谷歌、微软、PingIDentity纷纷转向这一新的协议。微服务、云原生这几年概念火热，可以预见OIDC的应用将会越来越广泛。
 
-![3-1-ID Protocol History.jpg](https://huawei.best/2021/06/23/4e50c173b07b4.jpg)
+![3-1-ID Protocol History.jpg](https://huawei.best/2021/06/23/846759e675176.jpg)
 
 ## 石器时代-独立存储身份 
 
@@ -48,7 +48,7 @@
 
 WS-Federation（简称: WS-Fed )联合框架属于Web Services Security(简称: WS-Security、WSS: 针对web-service安全性方面扩展的协议标准集合) 的一部分。WS-Federation规范采用了XML以及其他Web服务标准，从而可以使开发者能够实现在不同环境下的网络安全管理及建立相互协调信赖关系的目的。
 
-![3-1-WS-FED.jpg](https://i.loli.net/2021/06/23/2dZHRCtwSAyN85M.jpg)
+![3-1-WS-FED.jpg](https://huawei.best/2021/06/23/4e50c173b07b4.jpg)
 
 2002年4月11日，微软、IBM和VeriSign三公司联合发表了Web服务的新安全规格“WS-Security”和Web安全蓝图“Security in a Web Services World”。在当时的安全蓝图说明中就包括了WS-Federation规范的基本轮廓。并于2003年7月9日发布规范的说明草案。
 
@@ -86,7 +86,7 @@ OpenID是一个去中心化的网上身份认证系统。对于支持OpenID的�
 
 ## 互联网时代Oauth2.0
 
-在介绍OpenID Connect协议之前，我们首先要了解下授权协议Oauth，它并非是一个认证的协议，而是一个授权的协议，即无法用来认证使用者的身份，而是在知道使用者身份以后来颁发对于该使用者的权限。
+在介绍OpenID Connect协议之前，我们首先要了解下授权协议[Oauth](https://www.oauth.com)，它并非是一个认证的协议，而是一个授权的协议，即无法用来认证使用者的身份，而是在知道使用者身份以后来颁发对于该使用者的权限。
 
 OAuth开始于2006年11月，当时布莱恩·库克正在开发Twitter的OpenID实现。与此同时，社交书签网站Ma.gnolia需要一个解决方案允许使用OpenID的成员授权Dashboard访问他们的服务。这样库克、克里斯·梅西纳和来自Ma.gnolia的拉里·哈尔夫（Larry Halff）与戴维·雷科尔顿会面讨论在Twitter和Ma.gnolia API上使用OpenID进行委托授权。但他们讨论得出结论，认为OpenID没有完成API访问委托的开放标准。
 2007年4月，成立了OAuth讨论组，这个由实现者组成的小组撰写了一个开放协议的提议草案。来自Google的德维特·克林顿获悉OAuth项目后，表示他有兴趣支持这个工作。2007年7月，团队起草了最初的规范。随后，Eran Hammer-Lahav加入团队并协调了许多OAuth的稿件，创建了更为正式的规范。2007年10月, OAuth核心1.0最后的草案发布了。
