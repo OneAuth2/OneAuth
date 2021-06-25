@@ -5,3 +5,4 @@
 	*  [第一章 现代身份管理的挑战](modernidentity/ChapterOne.md )
 	*  [第二章 身份的生命周期](modernidentity/ChapterTwo.md )
 	*  [第三章 身份演进的历史](modernidentity/ChapterThree.md )
+	*  [第四章 身份的供给/生成](modernidentity/ChapterFour.md )
