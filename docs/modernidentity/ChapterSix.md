@@ -22,7 +22,7 @@ OAuth 2与OIDC的诞生，解决了这一问题，他是保护API的基础。OAu
 
 应用程序可能需要代表用户调用API，以访问用户拥有的内容，或者应用程序自身拥有所需的内容，则需要代表自己调用API。通过下图 6-1示例的场景说明这两种情况。
 
-![6-1](/Users/David/docs/Pics/6-1 API AuthZ.jpg)
+![6-1 API AuthZ.jpg](https://huawei.best/2021/07/05/6792afbb8bdce.jpg)
 
 <center> 6-1授权示例 </center>
 
@@ -50,7 +50,7 @@ OAuth 2与OIDC的诞生，解决了这一问题，他是保护API的基础。OAu
 
 4、资源服务器（RS）：提供服务数据，或对外提供资源访问API的服务.它对应用程序或资源所有者进行身份验证，如果应用程序将代表资源所有者访问API，则需请求资源所有者的同意。在OAuth2.0中， 授权服务器和资源服务器（API）可以由同一实体操作。
 
-![Oauth2.0 角色](/Users/David/docs/Pics/6-2 OAuth Actors.jpg)
+![6-2 OAuth Actors.jpg](https://huawei.best/2021/07/05/bcd1619a84321.jpg)
 
 <center>6-2 OAuth 角色</center>
 
@@ -114,7 +114,7 @@ OAuth 2.0 授权框架规范定义了四种方法，应用程序通过这些方�
 
 
 
-![](/Users/David/docs/Pics/6-3 OAuth Process.jpg)
+![6-3 OAuth Process.jpg](https://huawei.best/2021/07/05/e82edf494abcd.jpg)
 
 <center>6-3 OAuth Code Flow</center>
 
@@ -278,7 +278,7 @@ Pragma: no-cache
 
 OAuth2.0定义了一个隐式授权类型，该类型针对公共客户机（如单页应用程序）进行了优化。使用此授予类型可在一个请求中返回对应用程序的访问令牌。它是在浏览器中不广泛支持CORS（Cross-Origin Resource Sharing，跨源资源共享）标准的时候设计的，它们只能调用加载页面的域，这意味这类单页应用它们不能调用授权服务器的令牌端点。为了弥补这一限制，隐式授权类型让授权服务器通过使用URL散列片段在重定向中向应用程序返回令牌来响应授权请求。隐式授权类型的交互如图所示 6-4.
 
-![](/Users/David/docs/Pics/6-4 OAuth Implict Process.jpg)
+![6-4 OAuth Implict Process.jpg](https://huawei.best/2021/07/05/ba18e619342b8.jpg)
 
 
 
@@ -332,7 +332,7 @@ Host: authorizationserver.com
 
 资源所有者密码授予的交互类型如图6-5所示：
 
-![](/Users/David/docs/Pics/6-5 OAuth RO Credentials Grant.jpg)
+![6-5 OAuth RO Credentials Grant.jpg](https://huawei.best/2021/07/05/9ec797c7392a5.jpg)
 
 <center>6-5 资源所有者密码凭证</center>
 
@@ -377,7 +377,7 @@ grant_type=password
 
 当应用程序调用API以访问应用程序拥有的资源时，将使用客户端凭据授予类型。示例如图6-1所示素材服务，素材服务不属于单个用户，因此应用程序可以去直接进行调用。应用程序使用客户端凭据授予类型，并使用自己的凭据对授权服务器进行身份验证，以获取访问令牌。该类型的顺序图如图所示 6-6所示。
 
-![](/Users/David/docs/Pics/6-6 OAuth Crediential Grant.jpg)
+![6-6 OAuth Crediential Grant.jpg](https://huawei.best/2021/07/05/6f8f2b269b82d.jpg)
 
 <center> 6-6 客户端凭据流程</center>
 
