@@ -7,3 +7,4 @@
 	*  [第三章 身份演进的历史](modernidentity/ChapterThree.md )
 	*  [第四章 身份的供给/生成](modernidentity/ChapterFour.md )
 	*  [第五章 API安全的成熟度模型](modernidentity/ChapterFive.md )
+	*  [第六章 深入学习Oauth2.0](modernidentity/ChapterSix.md )
