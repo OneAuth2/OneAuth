@@ -154,15 +154,15 @@ PKCE规范列出了可用于从编码验证码派生代码挑战码的两种转�
 下面是一个应用基于PKCE模式向授权服务请求API授权的示例。 它将被定向到授权服务器的授权端点。
 
 ```
-GET /authorize?` 
-response_type=code`
-& client_id=<client_id>`
-& state=<state>`
-& scope=<scope>`
-& redirect_uri=<callback uri>`
-& resource=<API identifier>`
-& code_challenge=<PKCE code_challenge>`
-& code_challenge_method=S256 HTTP/1.1` 
+GET /authorize？
+response_type=code
+& client_id=<client_id>
+& state=<state>
+& scope=<scope>
+& redirect_uri=<callback uri>
+& resource=<API identifier>
+& code_challenge=<PKCE code_challenge>
+& code_challenge_method=S256 HTTP/1.1
 Host: authorizationserver.com` 
 ```
 
