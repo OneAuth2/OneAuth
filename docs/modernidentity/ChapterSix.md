@@ -278,7 +278,7 @@ Pragma: no-cache
 
 OAuth2.0定义了一个隐式授权类型，该类型针对公共客户机（如单页应用程序）进行了优化。使用此授予类型可在一个请求中返回对应用程序的访问令牌。它是在浏览器中不广泛支持CORS（Cross-Origin Resource Sharing，跨源资源共享）标准的时候设计的，它们只能调用加载页面的域，这意味这类单页应用它们不能调用授权服务器的令牌端点。为了弥补这一限制，隐式授权类型让授权服务器通过使用URL散列片段在重定向中向应用程序返回令牌来响应授权请求。隐式授权类型的交互如图所示 6-4.
 
-![6-4 OAuth Implict Process.jpg](https://huawei.best/2021/07/05/ba18e619342b8.jpg)
+![6-4 OAuth Implict Process.jpg](https://i.loli.net/2021/07/16/mBcxHjECJzOhdG7.jpg)
 
 
 
@@ -332,7 +332,7 @@ Host: authorizationserver.com
 
 资源所有者密码授予的交互类型如图6-5所示：
 
-![6-5 OAuth RO Credentials Grant.jpg](https://huawei.best/2021/07/05/9ec797c7392a5.jpg)
+![6-5 OAuth RO Credentials Grant.jpg](https://i.loli.net/2021/07/16/kCBi7gUfpvdasVu.jpg)
 
 <center>6-5 资源所有者密码凭证</center>
 
@@ -377,7 +377,7 @@ grant_type=password
 
 当应用程序调用API以访问应用程序拥有的资源时，将使用客户端凭据授予类型。示例如图6-1所示素材服务，素材服务不属于单个用户，因此应用程序可以去直接进行调用。应用程序使用客户端凭据授予类型，并使用自己的凭据对授权服务器进行身份验证，以获取访问令牌。该类型的顺序图如图所示 6-6所示。
 
-![6-6 OAuth Crediential Grant.jpg](https://huawei.best/2021/07/05/6f8f2b269b82d.jpg)
+![6-6 OAuth Crediential Grant.jpg](https://i.loli.net/2021/07/16/YvfaWQzOU9wDiy5.jpg)
 
 <center> 6-6 客户端凭据流程</center>
 
