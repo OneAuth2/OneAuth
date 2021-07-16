@@ -18,7 +18,7 @@
 
 第四阶段，因为技术的演进，对于API的需求越来越多，2014年基于OpenID和Oauth2.0，OIDC于2014年发布，谷歌、微软、PingIDentity纷纷转向这一新的协议。微服务、云原生这几年概念火热，可以预见OIDC的应用将会越来越广泛。
 
-![3-1-ID Protocol History.jpg](https://huawei.best/2021/06/23/846759e675176.jpg)
+![3-1-ID Protocol History.jpg](https://i.loli.net/2021/07/16/k9B2tZXmljREhUg.jpg)
 
 ## 石器时代-独立存储身份 
 
@@ -48,7 +48,7 @@
 
 WS-Federation（简称: WS-Fed )联合框架属于Web Services Security(简称: WS-Security、WSS: 针对web-service安全性方面扩展的协议标准集合) 的一部分。WS-Federation规范采用了XML以及其他Web服务标准，从而可以使开发者能够实现在不同环境下的网络安全管理及建立相互协调信赖关系的目的。
 
-![3-1-WS-FED.jpg](https://huawei.best/2021/06/23/4e50c173b07b4.jpg)
+![3-1-WS-FED.jpg](https://i.loli.net/2021/07/16/Cyv9SudNtDYx32w.jpg)
 
 2002年4月11日，微软、IBM和VeriSign三公司联合发表了Web服务的新安全规格“WS-Security”和Web安全蓝图“Security in a Web Services World”。在当时的安全蓝图说明中就包括了WS-Federation规范的基本轮廓。并于2003年7月9日发布规范的说明草案。
 
