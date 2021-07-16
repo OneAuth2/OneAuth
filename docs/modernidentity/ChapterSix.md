@@ -22,7 +22,7 @@ OAuth 2与OIDC的诞生，解决了这一问题，他是保护API的基础。OAu
 
 应用程序可能需要代表用户调用API，以访问用户拥有的内容，或者应用程序自身拥有所需的内容，则需要代表自己调用API。通过下图 6-1示例的场景说明这两种情况。
 
-![6-1 API AuthZ.jpg](https://huawei.best/2021/07/05/6792afbb8bdce.jpg)
+![6-1 API AuthZ.jpg](https://i.loli.net/2021/07/16/xK9MLrFPnvwWQh8.jpg)
 
 <center> 6-1授权示例 </center>
 
@@ -50,7 +50,7 @@ OAuth 2与OIDC的诞生，解决了这一问题，他是保护API的基础。OAu
 
 4、资源服务器（RS）：提供服务数据，或对外提供资源访问API的服务.它对应用程序或资源所有者进行身份验证，如果应用程序将代表资源所有者访问API，则需请求资源所有者的同意。在OAuth2.0中， 授权服务器和资源服务器（API）可以由同一实体操作。
 
-![6-2 OAuth Actors.jpg](https://huawei.best/2021/07/05/bcd1619a84321.jpg)
+![6-2 OAuth Actors.jpg](https://i.loli.net/2021/07/16/pUbtDSglOx5zyNq.jpg)
 
 <center>6-2 OAuth 角色</center>
 
@@ -114,7 +114,7 @@ OAuth 2.0 授权框架规范定义了四种方法，应用程序通过这些方�
 
 
 
-![6-3 OAuth Process.jpg](https://huawei.best/2021/07/05/e82edf494abcd.jpg)
+![6-3 OAuth Process.jpg](https://i.loli.net/2021/07/16/Bs6kSKYQmJhlg1c.jpg)
 
 <center>6-3 OAuth Code Flow</center>
 
