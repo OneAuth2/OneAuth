@@ -9,7 +9,7 @@ OIDC协议旨在解决某些场景下，用户需要通过身份验证才能访�
 
 图 7-1对这一场景提供了示例的说明。
 
-![](/Users/David/docs/Pics/7-1 OIDC.jpg)
+![7-1 OIDC.jpg](https://i.loli.net/2021/07/16/Z9zF7KAjG8VlOPE.jpg)
 
 <center>7-1 OIDC 概览</center>
 
@@ -54,7 +54,7 @@ ID Token令牌是OpenID提供者用来向应用程序传递关于身份验证事
 
 
 
-![](/Users/David/docs/Pics/7-2 OIDC IDToken.jpg)
+![7-2 OIDC IDToken.jpg](https://i.loli.net/2021/07/16/IraHYnfyRzp8qTl.jpg)
 
 <center>7-2 ID Token</center>
 
@@ -119,7 +119,7 @@ ID令牌可以包含表7-1中所列之外的额外声明。可以添加的附加
 
 OIDC授权代码流类似于OAuth2.0授权代码授，整个流程中，主要依赖于两次请求和一个中间授权代码。为了验证用户身份，应用程序将用户的浏览器重定向到OpenID提供者。OpenID提供者对用户进行身份验证，并使用授权码将用户的浏览器重定向回应用程序。应用程序使用授权代码从OpenID提供者的令牌端点获取ID令牌、访问令牌和可选的刷新令牌。图7-3描述了这个流程，假设用户当前没有登录会话，应用程序最终请求了全部的三个安全令牌（IDToken、AccessToken、Refresh Token），此图包含了如第6章所述的PKCE使用方式。
 
-![](/Users/David/docs/Pics/7-3 OIDC CodeFlow.jpg)
+![7-3 OIDC CodeFlow.jpg](https://i.loli.net/2021/07/16/jSY3WfZekLt4GO7.jpg)
 
 <center>OIDC 授权码流程</center>
 
@@ -282,7 +282,7 @@ Pragma: no-cache
 OIDC中的隐式流程与OAuth2.0的隐式授权类型相似。
 如第6章所述，不建议使用OAuth2.0隐式授权来获取访问令牌，至少在默认响应模式下是这样。然而，该指导原则的前提是基于暴露URL片段中的访问令牌的风险，即该URL片段可能通过浏览器历史记录或referer头泄漏。如果，应用程序只需要对用户进行身份验证并且可以通过ID令牌获取用户信息，而不需要访问令牌。在这种情况下，隐式流是可以接受的。图7-4显示了应用程序仅接收ID令牌的流程。
 
-![](/Users/David/docs/Pics/7-4 OIDC implicit.jpg)
+![7-4 OIDC implicit.jpg](https://i.loli.net/2021/07/16/ZDIVfbOosuFrktc.jpg)
 
 <center>7-4 OIDC 隐式流程</center>
 
@@ -351,7 +351,7 @@ id_token=<id_token>
 
 OIDC混合流包含授权代码流和隐式流程的元素。它是为既有安全后端，又有在前端执行JavaScript的客户端的应用程序而设计的。混合流支持诸如在对应用程序前端的前通道响应中返回ID令牌和授权码、让应用程序后端使用授权码从令牌端点获取访问令牌（和可选的刷新令牌）之类的模型。该流程如图7-5所示。
 
-![](/Users/David/docs/Pics/7-5-HybridFlow.jpg)
+![7-5-HybridFlow.jpg](https://i.loli.net/2021/07/16/IqRwzpSukUD3hsT.jpg)
 
 <center>7-5 OIDC 混合流程</center>
 
