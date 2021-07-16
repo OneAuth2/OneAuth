@@ -15,7 +15,7 @@
 
 - Level 3: 基于声明的集中式信任，Centralized Trust Using Claims
 
-![5-1 API Security Model.png](https://huawei.best/2021/06/30/98d476ec82e8d.png)
+![5-1 API Security Model.png](https://i.loli.net/2021/07/16/mhWVXogISRsQ9ju.png)
 
 ### Level 0 API密钥和基础认证
 
@@ -23,7 +23,7 @@
 
 例如，一个电子商务商店的应用，它根据用户购买情况对付款API进行API调用。它将身份验证以标头中的API密钥或基本身份验证的形式发送给应用程序，并将其传递给API。将用户的ID放在正文或URL中。在下面的示例中，有两类API：账单类和商品类。由于采用HTTP基本身份验证或API密钥方式，API仅对“商店应用”进行身份验证，因此“商店应用”必须向API传递用户数据。
 
-![5-2 Level0.jpg](https://huawei.best/2021/06/30/42c703bfcd425.jpg)
+![5-2 Level0.jpg](https://i.loli.net/2021/07/16/rngvp1BwQjbMKqY.jpg)
 
 #### Level0 缺点
 
@@ -35,7 +35,7 @@
 
 例如，继续上面的用例，考虑在电子商店中使用基于访问令牌的身份验证。在此场景下，如果API同时需要支持2个应用的调用，即，除了商店应用以外，还有内部的管理后台时，就会非常的明显。即需要使用自定义逻辑来了解该请求是属于具有特权的后台请求，还是来自外部网络用户对于该网上商店的请求。
 
-![5-2 Level1.jpg](https://huawei.best/2021/06/30/8c84f4080169c.jpg)
+![5-2 Level1.jpg](https://i.loli.net/2021/07/16/mbH2ogIawcSCv6K.jpg)
 
 #### Level 1的缺点：
 
@@ -53,7 +53,7 @@ OAuth最大的亮点是在token中包含了作用范围（标准中定义为Scop
 
 但是，此种方案仍然没有尽善尽美，在这个场景下，依然存在些问题。比如，商店应用和管理后台的的某些操作会出现重叠。比如，使用Scope为LIST，用于在账单API中列出发票。 列出发票的ID被包含在URL或作为传递的参数，作为该API的请求参数。因此，可能会出现恶意越权的情况，即一个用户可以操纵窜給传递的ID参数以列出另一个用户的发票。因此，仅仅使用范围是不够的，范围Scope锁定了客户端应用程序被允许做什么操作，但对于对特定用户被允许操作哪些数据没有帮助，因为它们只包含了参数的“名称”，而没有限定“值”。而是应使用Claims，以便将参数“铸造”到令牌中。然后程序就可以很容易地将后台应用特权与公共网络商店应用的特权分开。
 
-![5-2 Level2.jpg](https://huawei.best/2021/06/30/8300797681f6b.jpg)
+![5-2 Level2.jpg](https://i.loli.net/2021/07/16/veaz8icmq6HtEyX.jpg)
 
 #### Level 2的缺点：
 
