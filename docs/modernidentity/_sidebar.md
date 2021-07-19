@@ -9,3 +9,4 @@
 	*  [第五章 API安全的成熟度模型](modernidentity/ChapterFive.md )
 	*  [第六章 深入学习Oauth2.0](modernidentity/ChapterSix.md )
 	*  [第七章 深入学习OIDC](modernidentity/ChapterSeven.md )
+	*  [第八章 深入学习SAML2.0](modernidentity/ChapterEight.md )
