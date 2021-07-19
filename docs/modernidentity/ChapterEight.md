@@ -38,7 +38,7 @@ SAML规范定义了以下术语：
 
 跨域单点登录的最简单形式如图8-1所示。在此示例中，用户从服务提供商（SP）（应用程序）开始，因此称为“SP启动”流(该图描述了该场景，其中用户在身份提供者处没有现有的身份验证会话，因此必须进行身份验证）。
 
-![](/Users/David/docs/Pics/8-1 SAML SP-Initiated.jpg)
+![8-1 SAML SP-Initiated.jpg](https://i.loli.net/2021/07/19/3n1IJDpqwYVevmM.jpg)
 
 <center>8-1 SP发起的SSO</center>
 
@@ -60,7 +60,7 @@ SAML规范定义了以下术语：
 
 IdP发起的带有门户的流在企业中很有用，因为它提供了单点登录，并确保用户访问每个应用程序的正确URL，从而降低了用户被钓鱼的风险。IdP启动的流程如图7-2所示。（此图假设用户没有现有的身份验证会话，登录门户实际上是个SP发起SSO的流程，后半部分，用户访问SP是IdP发起SSO的流程。）
 
-![](/Users/David/docs/Pics/8-2 SAML IdP-Initiated.jpg)
+![8-2 SAML IdP-Initiated.jpg](https://i.loli.net/2021/07/19/1xYnSFjgClaWVKz.jpg)
 
 <center>8-2 IdP发起的SSO</center>
 
@@ -81,7 +81,7 @@ IdP发起的带有门户的流在企业中很有用，因为它提供了单点�
 
 图8-3举例说明。一个名为Alice Wang的用户在两个应用程序中拥有一个帐户，Application 1托管在app1.com，Application2托管在app2.com。在Application1中，她的帐户标识符是alice@corp.com，在application2中，她的帐户标识符是“alice”。Alice在企业身份服务提供者也有一个账户，她的账户标识是alice@corp.com.
 
-![](/Users/David/docs/Pics/8-3 Identity Federation.jpg)
+![8-3 Identity Federation.jpg](https://i.loli.net/2021/07/19/fCneOhQEjwpis7k.jpg)
 
 <center> 8-3 身份联邦</center>
 
@@ -103,7 +103,7 @@ IdP发起的带有门户的流在企业中很有用，因为它提供了单点�
 
 如图8-4所示，该应用程序使用OIDC和OAuth 2.0协议，通过一个身份验证中间代理代理，能够与多个身份提供者通信，每个身份提供者使用不同的协议。身份验证代理的使用允许应用程序团队在其应用程序中实现较新的身份协议，并将重点放在其应用程序的核心功能上，而不是花费时间直接实现和支持客户请求的较旧的身份协议。
 
-![](/Users/David/docs/Pics/8-4-IDP Broker.jpg)
+![8-4-IDP Broker.jpg](https://i.loli.net/2021/07/19/VoqrRnTc1GymUFC.jpg)
 
 
 
