@@ -10,3 +10,4 @@
 	*  [第六章 深入学习Oauth2.0](modernidentity/ChapterSix.md )
 	*  [第七章 深入学习OIDC](modernidentity/ChapterSeven.md )
 	*  [第八章 深入学习SAML2.0](modernidentity/ChapterEight.md )
+	*  [第九章 授权与访问策略执行](modernidentity/ChapterNine.md )
