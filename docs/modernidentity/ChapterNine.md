@@ -12,7 +12,7 @@
 
 如图8-1所示,对授权和访问策略的的执行进行了逻辑上的分离。
 
-![](/Users/David/docs/Pics/9-1 AuthZ and Police Enforcement.jpg)
+![9-1 AuthZ and Police Enforcement.jpg](https://i.loli.net/2021/07/20/XDnzPT7K6ptyY48.jpg)
 
 
 
@@ -73,7 +73,7 @@
 
 图8-2显示了通过ID令牌传递用户配置文件信息以支持访问强制的示例。在该示例中，该应用程序是一个视频应用程序，用户可以购买不同的订阅级别（如普通会员、高级会员）以观看不同的视频。ID令牌将用户购买的订阅级别传递给应用程序。
 
-![](/Users/David/docs/Pics/9-2 example for Authz Delvery .jpg)
+![9-2 example for Authz Delvery .jpg](https://i.loli.net/2021/07/20/W91QBsgYuM42dRS.jpg)
 
 <center>9-2授权传递</center>
 
@@ -119,13 +119,13 @@ OAuth2.0授权将其请求的作用域指定为授权请求的参数。例如，
 
 将作用域scope参数看作访问范围是种不错的方式，也就是说，它列出了客户需要访问的内容，可以用于粗粒度授权，以决定是否允许客户机查询API。但是，即使令牌中存在doc_read的作用域，我们也不知道应该允许它读取哪个文档（doc）。为了进一步说明，以OpenID Connect为例，它将作用域定义为一组声明的集合。因此，“email” Scope令牌定义为“email”和“email is verified”声明。声明具有与其关联的值，而作用域标记只是一个名称，这意味着作用域只是一组声明的打包，例如OIDC中的Profile，具有如下的结构：
 
-![](/Users/David/docs/Pics/9-3 OIDC Profile Token.png)
+![9-3 OIDC Profile Token.png](https://i.loli.net/2021/07/20/q7OI4NyCDo18seE.png)
 
 <center>9-3 OIDC Profile</center>
 
 事实上每个OpenID声明都与一个作用域相关联，如下图所示。
 
-![](/Users/David/docs/Pics/9-4 OIDC Scope.png)
+![9-4 OIDC Scope.png](https://i.loli.net/2021/07/20/2irTDLGOSZXUMo4.png)
 
 <center>9-3 OIDC Scopes</center>
 
