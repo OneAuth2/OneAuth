@@ -87,7 +87,7 @@ IdP发起的带有门户的流在企业中很有用，因为它提供了单点�
 
 身份提供者的管理员向 Application 1和Application2的管理员提供身份服务有关其环境的元数据，二者使用元数据在Application1/2和身份提供者之间设置联合认证的配置。身份提供者将会向其配置的每个服务提供者发送断言，这些断言包含服务提供者（应用程序）的适当标识符和属性。
 
-当Alice访问Application1时，它通过浏览器重定向到身份提供者“corp.com”。身份提供者对Ann进行身份验证，验证完成后，将alice@corp.com作为身份属性标识，并将包含该标识的身份验证断言重定向回application1。Application1对Alice使用相同的标识符，它基于该标识识别alice。
+当Alice访问Application1时，它通过浏览器重定向到身份提供者“corp.com”。身份提供者对Alice进行身份验证，验证完成后，将alice@corp.com作为身份属性标识，并将包含该标识的身份验证断言重定向回application1。Application1对Alice使用相同的标识符，它基于该标识识别alice。
 
 当Alice访问application2时，类似的，它通过浏览器重定向到身份提供者“corp.com”，此时如果alice已经验证过，无需再进行验证。如果身份提供者返回一个身份验证断言，将她标识为alice@corp.com，那么Application2则无法识别她，不会将该名称认为是一个有效用户。身份提供者需要为不同服务提供者返回适当的标识符。在这种情况下，当身份提供者将身份验证断言传递给application2时，它需要使用“alice”来标识断言的主题。
 
