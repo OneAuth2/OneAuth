@@ -12,3 +12,4 @@
 	*  [第八章 深入学习SAML2.0](modernidentity/ChapterEight.md )
 	*  [第九章 授权与访问策略执行](modernidentity/ChapterNine.md )
 	*  [第十章 身份认证会话](modernidentity/ChapterTen.md )
+	*  [第十一章 SSO单点登录](modernidentity/Chapter11 SSO-单点登录.md )
