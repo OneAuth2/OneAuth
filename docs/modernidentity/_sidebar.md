@@ -13,3 +13,4 @@
 	*  [第九章 授权与访问策略执行](modernidentity/ChapterNine.md )
 	*  [第十章 身份认证会话](modernidentity/ChapterTen.md )
 	*  [第十一章 SSO单点登录](modernidentity/ChapterEleven.md )
+	*  [第十二章 身份认证增强](modernidentity/ChapterTwelve.md )
