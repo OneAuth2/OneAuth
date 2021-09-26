@@ -5,7 +5,6 @@
 ## 现代身份建设指南
 
 * [引言](xian-dai-shen-fen-jian-she-zhi-nan/introduction.md)
-* [第一章 现代身份的挑战](xian-dai-shen-fen-jian-she-zhi-nan/chapterone.md)
 * [第二章 身份的生命周期](xian-dai-shen-fen-jian-she-zhi-nan/chaptertwo.md)
 * [第三章 身份演进历史](xian-dai-shen-fen-jian-she-zhi-nan/chapterthree.md)
 * [第四章 身份的供给/生成](xian-dai-shen-fen-jian-she-zhi-nan/chapterfour.md)
@@ -19,4 +18,8 @@
 * [第十二章 强身份认证](xian-dai-shen-fen-jian-she-zhi-nan/chaptertwelve.md)
 
 ## 关于身份
+
+---
+
+* [第一章 现代身份的挑战](chapterone.md)
 
