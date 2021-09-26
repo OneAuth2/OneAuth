@@ -1,6 +1,13 @@
 # Table of contents
 
 * [现代身份建设指南](README.md)
+
+## 现代身份建设指南
+
+* [引言](xian-dai-shen-fen-jian-she-zhi-nan/introduction.md)
+
+---
+
 * [docs](docs/README.md)
   * [modernidentity](docs/modernidentity/README.md)
     * [第五章 API安全的成熟度模型](docs/modernidentity/chapterfive.md)
@@ -15,8 +22,4 @@
     * [第三章 身份演进历史](docs/modernidentity/chapterthree.md)
     * [第十章 Sessions 会话](docs/modernidentity/chapterten.md)
     * [第十二章 强身份认证](docs/modernidentity/chaptertwelve.md)
-
-## 现代身份建设指南
-
-* [引言](xian-dai-shen-fen-jian-she-zhi-nan/introduction.md)
 
